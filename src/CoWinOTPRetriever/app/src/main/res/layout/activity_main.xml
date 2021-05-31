@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/KvdbBucketkeyEntry" />
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNumberEntry" />
 
     <TextView
         android:id="@+id/StatusTextView"
@@ -62,30 +62,30 @@
         app:layout_constraintVertical_bias="0.848"
         app:layout_constraintWidth_percent="0.8" />
 
-    <TextView
-        android:id="@+id/KvdbBucketLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/enter_kvdb_bucket_key"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PhoneNumberEntry" />
+<!--    <TextView-->
+<!--        android:id="@+id/KvdbBucketLabel"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/enter_kvdb_bucket_key"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/PhoneNumberEntry" />-->
 
-    <EditText
-        android:id="@+id/KvdbBucketkeyEntry"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:labelFor="@id/KvdbBucketkeyEntry"
-        android:inputType="textPersonName"
-        android:text="@string/kvdb_default_key"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/KvdbBucketLabel" />
+<!--    <EditText-->
+<!--        android:id="@+id/KvdbBucketkeyEntry"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:labelFor="@id/KvdbBucketkeyEntry"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="@string/kvdb_default_key"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/KvdbBucketLabel" />-->
 
     <ImageView
         android:id="@+id/imageView"
